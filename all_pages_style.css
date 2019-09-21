@@ -1,10 +1,11 @@
 .header {
   padding: 80px; /* some padding */
   text-align: center; /* center the text */
-  background: teal; /* green background */
+  background: url("Header_pic.png"); /* green background */
   color: white; /* white text color */
+  width: 100%;
+  height: 250px;
 }
-
 /* Increase the font size of the <h1> element */
 .header h1 {
   font-size: 40px;
@@ -25,17 +26,19 @@ body {
   display: block; /* Change the display to block, for responsive reasons (see below) */
   color: white; /* White text color */
   text-align: center; /* Center the text */
-  padding: 14px 20px; /* Add some padding */
+  padding: 14px 25px; /* Add some padding */
   text-decoration: none; /* Remove underline */
+  font-size: 20px;
+
 }
 
-/* Right-aligned link */
-.navbar a.right {
-  float: right; /* Float a link to the right */
-}
 
 /* Change color on hover/mouse-over */
 .navbar a:hover {
   background-color: #ddd; /* Grey background color */
   color: black; /* Black text color */
+}
+
+.h1{
+  text-align: center ;
 }
