@@ -10,8 +10,14 @@
 .header h1 {
   font-size: 40px;
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
 body {
   font-family: Tahoma, Helvetica, sans-serif;
+  text-align: right;
 }
 
 /* Style the top navigation bar */
