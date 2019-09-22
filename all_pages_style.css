@@ -3,18 +3,14 @@
   text-align: center; /* center the text */
   background: url("Header_pic.png"); /* green background */
   color: white; /* white text color */
-  width: 100%;
+  width: auto;
   height: 250px;
 }
 /* Increase the font size of the <h1> element */
 .header h1 {
-  font-size: 40px;
+  font-size: 45px;
 }
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%
-}
+
 body {
   font-family: Tahoma, Helvetica, sans-serif;
   text-align: right;
@@ -23,19 +19,20 @@ body {
 /* Style the top navigation bar */
 .navbar {
   overflow: hidden; /* Hide overflow */
-  background-color: #333; /* Dark background color */
+  background-color: bisque; /* Dark background color */
 }
 
 /* Style the navigation bar links */
 .navbar a {
-  float: right; /* Make sure that the links stay side-by-side */
+ /* float: right; /* Make sure that the links stay side-by-side */
   display: block; /* Change the display to block, for responsive reasons (see below) */
   color: white; /* White text color */
   text-align: center; /* Center the text */
   padding: 14px 25px; /* Add some padding */
   text-decoration: none; /* Remove underline */
   font-size: 20px;
-
+  font-weight: bold;
+  position: relative;
 }
 
 
