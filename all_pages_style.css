@@ -19,22 +19,31 @@ body {
 /* Style the top navigation bar */
 .navbar {
   overflow: hidden; /* Hide overflow */
-  background-color: bisque; /* Dark background color */
+  background-color: bisque;
+
 }
 
 /* Style the navigation bar links */
 .navbar a {
- /* float: right; /* Make sure that the links stay side-by-side */
-  display: block; /* Change the display to block, for responsive reasons (see below) */
-  color: white; /* White text color */
+  float: right; /* Make sure that the links stay side-by-side */
+  display: inline-block; /* Change the display to block, for responsive reasons (see below) */
+  color: black; /* White text color */
   text-align: center; /* Center the text */
   padding: 14px 25px; /* Add some padding */
   text-decoration: none; /* Remove underline */
   font-size: 20px;
   font-weight: bold;
-  position: relative;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
 
 /* Change color on hover/mouse-over */
 .navbar a:hover {

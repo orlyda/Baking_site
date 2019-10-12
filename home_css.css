@@ -1,8 +1,7 @@
 /* Four columns side by side */
 .column {
     float: left;
-    width:24%;
-    padding: 0 8px;
+    width:25%;
 }
 
 .overlay {
@@ -30,9 +29,9 @@
 }
 
 
-.what_baking{
+/*.what_baking{
   font-size: 24px;
   font-weight: bold;
   text-align: center;
 
-}
+}*/
