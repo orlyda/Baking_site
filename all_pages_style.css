@@ -1,15 +1,10 @@
-.header {
-  padding: 80px;
+.header{
+  padding: 78px;
   text-align: center;
-  background: url("Header_pic.png");
+  background: url("photos/Header_pic.png");
   color: white;
-  width: auto;
-  height: 250px;
-}
-.header h1 {
-  font-size: 45px;
-  text-align: center ;
-  font-size: 20px;
+  height: 330px;
+  width: 1200px;
 }
 
 .body {
@@ -18,7 +13,10 @@
 }
 .navbar {
   overflow: hidden; /* Hide overflow */
-  background-color: bisque;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #ff917b;
 
 }
 

@@ -19,19 +19,8 @@
   text-align: center;
 }
 
-/* When you mouse over the container, fade in the overlay title */
-.container:hover .overlay {
-  opacity: 1;
-}
+
 
 .title {
   color: grey;
 }
-
-
-/*.what_baking{
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-
-}*/
