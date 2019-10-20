@@ -1,15 +1,18 @@
+@font-face {
+  font-family: gveretLevin;
+  src:url("GveretLevinAlefAlefAlef-Regular.otf");
+}
 .header{
 
   padding: 80px;
   text-align: center;
-  background-image: url(photos/Header_pic.jpg);
+  background-image: url("photos/Header_pic.jpg");
   color:black;
   font-family: Sofia;
   font-size: 40px;
 }
 
 .body {
-  font-family: Tahoma, Helvetica, sans-serif;
   text-align: right;
 }
 .navbar {
@@ -30,8 +33,9 @@
   font-weight: bold;
 }
 .img {
-  padding: 20px;
-  border-radius: 50%;
+ border-radius: 50%;
+  height: 320px;
+  width: 240px;
 }
 .navbar a:hover {
   background-color: #ddd; /* Grey background color */

@@ -15,11 +15,21 @@
   padding-left: 50px;
 }
 .card {
+  font-family: gveretLevin;
   background-color: bisque;
   padding: 50px;
-  margin-top: 50px;
 }
-
+.lastbake{
+  font-size: 40px;
+  text-align: right;
+  direction: rtl;
+}
+.card p{
+  font-size: 20px;
+  text-align: right;
+  direction: rtl;
+  margin-bottom: -1em;
+}
 .row:after {
   content: "";
   display: table;
