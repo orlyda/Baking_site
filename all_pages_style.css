@@ -14,6 +14,7 @@
 
 .body {
   text-align: right;
+  background: bisque;
 }
 .navbar {
   overflow: hidden; /* Hide overflow */
@@ -42,3 +43,6 @@
   color: black; /* Black text color */
 }
 
+.instagram-media{
+  background: bisque;
+}
